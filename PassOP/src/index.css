@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+
+@layer components {
+    .mycontainer{
+        @apply container py-10 mx-auto;
+        
+    }
+    
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(125% 125% at 50% 10%, #000 40%, #63e 100%);
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
